@@ -6,6 +6,6 @@ COPY ./requirements.txt ./
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
-
+ 
 #CMD [ "python", "./your-daemon-or-script.py" ]
 EXPOSE 80
